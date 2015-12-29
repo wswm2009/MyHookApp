@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="DetoursFile">
+      <UniqueIdentifier>{9e67a657-8867-43e8-ad4e-4d7de08e1acc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataOperate">
+      <UniqueIdentifier>{da10f299-1866-446d-b905-c7a6fd36a060}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{5a351c52-74d5-407f-8d05-71d03b68b924}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyHookFile">
+      <UniqueIdentifier>{e335f278-94bc-4b67-abf5-fe85d7bd888c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lua">
+      <UniqueIdentifier>{64385935-64b8-4b71-8cb9-ed5e6ec1e698}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DetoursFile\detours.h">
+      <Filter>DetoursFile</Filter>
+    </ClInclude>
+    <ClInclude Include="DataOperate\DataOperate.h">
+      <Filter>DataOperate</Filter>
+    </ClInclude>
+    <ClInclude Include="MyHookApp.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="MyHookFile\HookFunc.h">
+      <Filter>MyHookFile</Filter>
+    </ClInclude>
+    <ClInclude Include="MyHookFile\LDasm.h">
+      <Filter>MyHookFile</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lauxlib.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lua.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\luadebug.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lualib.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DataOperate\DataOperate.cpp">
+      <Filter>DataOperate</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="MyHookApp.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="MyHookFile\HookFunc.cpp">
+      <Filter>MyHookFile</Filter>
+    </ClCompile>
+    <ClCompile Include="MyHookFile\LDasm.c">
+      <Filter>MyHookFile</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MyHookApp.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
